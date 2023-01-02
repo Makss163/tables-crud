@@ -1,4 +1,5 @@
 export namespace TablesCRUD {
+
     export interface IFetch {}
 
     export interface IPostsService {

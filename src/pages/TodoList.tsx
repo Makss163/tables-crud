@@ -2,6 +2,10 @@ import React, { FC } from "react";
 
 const TodoList: FC = () => {
     return (
-        <div></div>
+        <div className="main">
+            <h1>Todos</h1>
+        </div>
     )
 };
+
+export default TodoList;

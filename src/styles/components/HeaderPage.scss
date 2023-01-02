@@ -1,0 +1,13 @@
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+    padding: 0 30px;
+    background: linear-gradient(90deg, rgb(66, 66, 66), rgb(90, 90, 90), rgb(66, 66, 66));
+
+    &-right {
+        width: 150px;
+    }
+}

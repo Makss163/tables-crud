@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    width: 100%;
+}
+
+.main {
+    padding-top: 60px;
+}
+
+.flex {
+    display: flex;
+    &-column {
+        flex-direction: column;
+    }
+    
+    &-all-center {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &-justify-between {
+        justify-content: space-between;
+    }
+    
+    &-justify-end {
+        justify-content: flex-end;
+    }
+    
+    &-align-between {
+        align-content: space-between;
+    }
+    
+    &-align-end {
+        align-items: flex-end;
+    }
+}
